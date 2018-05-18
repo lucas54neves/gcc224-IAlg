@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main () {
+	float n1, n2, n3, n4, maior1, maior2;
+	cin >> n1 >> n2 >> n3 >> n4;
+	numeros [n1, n2, n3, n4]
+	maior1 = n1;
+	if (n2 > maior1) {
+		maior1 = n2;
+		maior2 = n1;
+	}
+	else {
+		if (n3 > maior1) {
+			maior1 = n3;
+			maior2 = n1;
+		}
+		else {
+			maior1 = n4;
+			maior2 = n1;
+		}
+	}
+	if (n3 >
+	cout << maior1 << endl;
+	cout << maior2 << endl;
+	return 0;
+}
